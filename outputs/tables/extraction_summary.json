@@ -1,0 +1,27 @@
+{
+  "elapsed_s": 3162.8085462000163,
+  "elapsed_min": 52.71347577000027,
+  "n_total_rows": 59819048,
+  "n_questions": 24101803,
+  "n_answers": 35603624,
+  "n_other_posttype": 113621,
+  "questions_parquet_bytes": 1320840891,
+  "answers_parquet_bytes": 631793808,
+  "questions_parquet_mb": 1259.6520338058472,
+  "answers_parquet_mb": 602.5255279541016,
+  "communities": [
+    "ai_ml",
+    "mobile",
+    "web_frontend",
+    "cloud_devops",
+    "databases"
+  ],
+  "community_tag_counts": {
+    "ai_ml": 97,
+    "mobile": 41,
+    "web_frontend": 363,
+    "cloud_devops": 384,
+    "databases": 23
+  },
+  "llm_subset_size": 20
+}

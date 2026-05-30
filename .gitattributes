@@ -1,0 +1,11 @@
+# 統一使用 LF 換行（跨平台相容）
+* text=auto eol=lf
+
+# 二進位檔案不做換行轉換
+*.png binary
+*.jpg binary
+*.npy binary
+*.pkl binary
+*.parquet binary
+*.pyc binary
+*.docx binary

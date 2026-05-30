@@ -1,0 +1,9 @@
+louvain_id,n_members,n_labelled,dominant_taxonomy,purity
+0,7371,97,web_frontend,0.32989690721649484
+4,3509,385,web_frontend,0.5974025974025974
+2,2877,28,ai_ml,0.5
+1,2521,86,web_frontend,0.9186046511627907
+5,731,17,mobile,0.5882352941176471
+6,73,12,web_frontend,1.0
+3,30,0,unlabelled,0.0
+7,9,0,unlabelled,0.0

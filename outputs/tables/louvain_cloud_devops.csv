@@ -1,0 +1,10 @@
+louvain_id,n_members,n_labelled,dominant_taxonomy,purity
+4,2311,65,cloud_devops,0.7076923076923077
+8,1854,179,cloud_devops,0.9497206703910615
+2,1206,85,cloud_devops,0.8941176470588236
+5,872,23,cloud_devops,1.0
+6,870,97,cloud_devops,0.5154639175257731
+0,845,90,web_frontend,0.7
+7,135,10,cloud_devops,1.0
+3,13,1,cloud_devops,1.0
+1,2,0,unlabelled,0.0

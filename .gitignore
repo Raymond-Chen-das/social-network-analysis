@@ -1,0 +1,50 @@
+# =============================================================================
+# Stack Overflow Community Network Analysis — .gitignore
+# =============================================================================
+
+# --- Raw & Processed Data (too large for Git; see README for rebuild steps) --
+Posts.xml
+data/raw/
+data/processed/
+data/networks/
+data/snapshots/
+
+# --- Python bytecode ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual environments -----------------------------------------------------
+venv/
+env/
+.venv/
+.env/
+*.egg-info/
+dist/
+build/
+
+# --- Jupyter ------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Build / run log files (not analysis results) ----------------------------
+outputs/tables/*.log
+outputs/tables/bridge_users_qa_log.txt
+
+# --- Reference PDFs (copyrighted; cited in README) ----------------------------
+docs/*.pdf
+
+# --- Claude Code internal project files (development tooling) ----------------
+CLAUDE_CODE_PROMPT.md
+AGENTS.md
+.claude/
+report
+
+# --- OS / editor --------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
