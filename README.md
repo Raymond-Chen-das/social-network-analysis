@@ -191,7 +191,7 @@ python src/dna_analysis.py          # 約 31 秒
 
 | 層次 | 工具 |
 |---|---|
-| 資料處理 | `polars`（斷言下推）、`pyarrow` |
+| 資料工程 | 串流 XML 解析（96.8 GB → 1.8 GB Parquet ETL）、`polars` predicate pushdown、`pyarrow` |
 | 圖分析 | `networkx`、`python-louvain`、`scipy` |
 | 機器學習 | `scikit-learn`（PCA） |
 | 視覺化 | `matplotlib`（Community Bubble Layout 自製版面） |
